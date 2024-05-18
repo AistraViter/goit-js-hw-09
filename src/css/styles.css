@@ -21,7 +21,6 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  box-sizing: border-box;
 
 }
 
@@ -29,8 +28,13 @@ li {
   list-style-type: none;
 }
 .container {
+  width: 100%;
   margin: 0 auto;
+
 }
+
+/**Gallary*/
+
 .go-back {
   margin-bottom: 24px;
 }
@@ -49,6 +53,12 @@ li {
   transform: scale(1.05);
 }
 
+
+/**FORM*/
+
+.form-section {
+margin: 40px auto;
+}
 .feedback-form {
   margin-left: 120px;
   width: 408px;
@@ -100,3 +110,4 @@ li {
 .btn-submit:hover {
   background-color: #6c8cff;
 }
+
