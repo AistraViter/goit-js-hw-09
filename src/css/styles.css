@@ -80,12 +80,14 @@ margin: 40px auto;
 .input-text {
   width: 360px;
   height: 40px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border: 1px solid #808080;
   border-radius: 4px;
 }
 .input-text {
   height: 80px;
+  padding: 8px 16px;
+
 }
 
 .input-field:hover,
